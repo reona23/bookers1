@@ -13,3 +13,111 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+  display: block;
+}
+
+head {
+  display: none;
+}
+
+body {
+  display: block;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: verdana, arial, helvetica, sansserif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  unicode-bidi: isolate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+th {
+    padding-bottom: 5px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h2 {
+  display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+f {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+
+div.field, div.action {
+    margin-bottom: 10px;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+label {
+    display: block;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+a:visited {
+  color:#666666;
+}
