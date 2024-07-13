@@ -1,4 +1,6 @@
-<p id="notice"></p>
+<% if flash[:notice] %>
+  <p style="color: green;"><%= flash[:notice] %></p>
+<% end %>
 
 <p>
   <strong>Title: </strong>
@@ -12,5 +14,5 @@
 <p>
   <%= link_to "Edit", edit_book_path(@book) %>
    |
-  <%= link_to "Back", books_path(@book) %>
+  <%= link_to "Back", books_path %>
 </p>
